@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55BFCA81204471CB00A9C0B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BFCA80204471CB00A9C0B0 /* AppDelegate.swift */; };
+		55BFCA83204471CB00A9C0B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BFCA82204471CB00A9C0B0 /* ViewController.swift */; };
+		55BFCA86204471CB00A9C0B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BFCA84204471CB00A9C0B0 /* Main.storyboard */; };
+		55BFCA89204471CB00A9C0B0 /* My_EHR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55BFCA87204471CB00A9C0B0 /* My_EHR.xcdatamodeld */; };
+		55BFCA8B204471CB00A9C0B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55BFCA8A204471CB00A9C0B0 /* Assets.xcassets */; };
+		55BFCA8E204471CB00A9C0B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BFCA8C204471CB00A9C0B0 /* LaunchScreen.storyboard */; };
+		55BFCA99204471CB00A9C0B0 /* My_EHRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BFCA98204471CB00A9C0B0 /* My_EHRTests.swift */; };
+		55BFCAA4204471CB00A9C0B0 /* My_EHRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BFCAA3204471CB00A9C0B0 /* My_EHRUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55BFCA95204471CB00A9C0B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55BFCA75204471CB00A9C0B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55BFCA7C204471CB00A9C0B0;
+			remoteInfo = "My EHR";
+		};
+		55BFCAA0204471CB00A9C0B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55BFCA75204471CB00A9C0B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55BFCA7C204471CB00A9C0B0;
+			remoteInfo = "My EHR";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55BFCA7D204471CB00A9C0B0 /* My EHR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My EHR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55BFCA80204471CB00A9C0B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55BFCA82204471CB00A9C0B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55BFCA85204471CB00A9C0B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55BFCA88204471CB00A9C0B0 /* My_EHR.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = My_EHR.xcdatamodel; sourceTree = "<group>"; };
+		55BFCA8A204471CB00A9C0B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55BFCA8D204471CB00A9C0B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55BFCA8F204471CB00A9C0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55BFCA94204471CB00A9C0B0 /* My EHRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My EHRTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55BFCA98204471CB00A9C0B0 /* My_EHRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_EHRTests.swift; sourceTree = "<group>"; };
+		55BFCA9A204471CB00A9C0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55BFCA9F204471CB00A9C0B0 /* My EHRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My EHRUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55BFCAA3204471CB00A9C0B0 /* My_EHRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_EHRUITests.swift; sourceTree = "<group>"; };
+		55BFCAA5204471CB00A9C0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55BFCA7A204471CB00A9C0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55BFCA91204471CB00A9C0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55BFCA9C204471CB00A9C0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55BFCA74204471CB00A9C0B0 = {
+			isa = PBXGroup;
+			children = (
+				55BFCA7F204471CB00A9C0B0 /* My EHR */,
+				55BFCA97204471CB00A9C0B0 /* My EHRTests */,
+				55BFCAA2204471CB00A9C0B0 /* My EHRUITests */,
+				55BFCA7E204471CB00A9C0B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55BFCA7E204471CB00A9C0B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55BFCA7D204471CB00A9C0B0 /* My EHR.app */,
+				55BFCA94204471CB00A9C0B0 /* My EHRTests.xctest */,
+				55BFCA9F204471CB00A9C0B0 /* My EHRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55BFCA7F204471CB00A9C0B0 /* My EHR */ = {
+			isa = PBXGroup;
+			children = (
+				55BFCA80204471CB00A9C0B0 /* AppDelegate.swift */,
+				55BFCA82204471CB00A9C0B0 /* ViewController.swift */,
+				55BFCA84204471CB00A9C0B0 /* Main.storyboard */,
+				55BFCA8A204471CB00A9C0B0 /* Assets.xcassets */,
+				55BFCA8C204471CB00A9C0B0 /* LaunchScreen.storyboard */,
+				55BFCA8F204471CB00A9C0B0 /* Info.plist */,
+				55BFCA87204471CB00A9C0B0 /* My_EHR.xcdatamodeld */,
+			);
+			path = "My EHR";
+			sourceTree = "<group>";
+		};
+		55BFCA97204471CB00A9C0B0 /* My EHRTests */ = {
+			isa = PBXGroup;
+			children = (
+				55BFCA98204471CB00A9C0B0 /* My_EHRTests.swift */,
+				55BFCA9A204471CB00A9C0B0 /* Info.plist */,
+			);
+			path = "My EHRTests";
+			sourceTree = "<group>";
+		};
+		55BFCAA2204471CB00A9C0B0 /* My EHRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55BFCAA3204471CB00A9C0B0 /* My_EHRUITests.swift */,
+				55BFCAA5204471CB00A9C0B0 /* Info.plist */,
+			);
+			path = "My EHRUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55BFCA7C204471CB00A9C0B0 /* My EHR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55BFCAA8204471CB00A9C0B0 /* Build configuration list for PBXNativeTarget "My EHR" */;
+			buildPhases = (
+				55BFCA79204471CB00A9C0B0 /* Sources */,
+				55BFCA7A204471CB00A9C0B0 /* Frameworks */,
+				55BFCA7B204471CB00A9C0B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My EHR";
+			productName = "My EHR";
+			productReference = 55BFCA7D204471CB00A9C0B0 /* My EHR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55BFCA93204471CB00A9C0B0 /* My EHRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55BFCAAB204471CB00A9C0B0 /* Build configuration list for PBXNativeTarget "My EHRTests" */;
+			buildPhases = (
+				55BFCA90204471CB00A9C0B0 /* Sources */,
+				55BFCA91204471CB00A9C0B0 /* Frameworks */,
+				55BFCA92204471CB00A9C0B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55BFCA96204471CB00A9C0B0 /* PBXTargetDependency */,
+			);
+			name = "My EHRTests";
+			productName = "My EHRTests";
+			productReference = 55BFCA94204471CB00A9C0B0 /* My EHRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55BFCA9E204471CB00A9C0B0 /* My EHRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55BFCAAE204471CB00A9C0B0 /* Build configuration list for PBXNativeTarget "My EHRUITests" */;
+			buildPhases = (
+				55BFCA9B204471CB00A9C0B0 /* Sources */,
+				55BFCA9C204471CB00A9C0B0 /* Frameworks */,
+				55BFCA9D204471CB00A9C0B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55BFCAA1204471CB00A9C0B0 /* PBXTargetDependency */,
+			);
+			name = "My EHRUITests";
+			productName = "My EHRUITests";
+			productReference = 55BFCA9F204471CB00A9C0B0 /* My EHRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55BFCA75204471CB00A9C0B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "High Tree Development";
+				TargetAttributes = {
+					55BFCA7C204471CB00A9C0B0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					55BFCA93204471CB00A9C0B0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 55BFCA7C204471CB00A9C0B0;
+					};
+					55BFCA9E204471CB00A9C0B0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 55BFCA7C204471CB00A9C0B0;
+					};
+				};
+			};
+			buildConfigurationList = 55BFCA78204471CB00A9C0B0 /* Build configuration list for PBXProject "My EHR" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55BFCA74204471CB00A9C0B0;
+			productRefGroup = 55BFCA7E204471CB00A9C0B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55BFCA7C204471CB00A9C0B0 /* My EHR */,
+				55BFCA93204471CB00A9C0B0 /* My EHRTests */,
+				55BFCA9E204471CB00A9C0B0 /* My EHRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55BFCA7B204471CB00A9C0B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55BFCA8E204471CB00A9C0B0 /* LaunchScreen.storyboard in Resources */,
+				55BFCA8B204471CB00A9C0B0 /* Assets.xcassets in Resources */,
+				55BFCA86204471CB00A9C0B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55BFCA92204471CB00A9C0B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55BFCA9D204471CB00A9C0B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55BFCA79204471CB00A9C0B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55BFCA89204471CB00A9C0B0 /* My_EHR.xcdatamodeld in Sources */,
+				55BFCA83204471CB00A9C0B0 /* ViewController.swift in Sources */,
+				55BFCA81204471CB00A9C0B0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55BFCA90204471CB00A9C0B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55BFCA99204471CB00A9C0B0 /* My_EHRTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55BFCA9B204471CB00A9C0B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55BFCAA4204471CB00A9C0B0 /* My_EHRUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55BFCA96204471CB00A9C0B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55BFCA7C204471CB00A9C0B0 /* My EHR */;
+			targetProxy = 55BFCA95204471CB00A9C0B0 /* PBXContainerItemProxy */;
+		};
+		55BFCAA1204471CB00A9C0B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55BFCA7C204471CB00A9C0B0 /* My EHR */;
+			targetProxy = 55BFCAA0204471CB00A9C0B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55BFCA84204471CB00A9C0B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55BFCA85204471CB00A9C0B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55BFCA8C204471CB00A9C0B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55BFCA8D204471CB00A9C0B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55BFCAA6204471CB00A9C0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55BFCAA7204471CB00A9C0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55BFCAA9204471CB00A9C0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D3D7B5BPEZ;
+				INFOPLIST_FILE = "My EHR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HighTreeDevelopment.My-EHR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55BFCAAA204471CB00A9C0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D3D7B5BPEZ;
+				INFOPLIST_FILE = "My EHR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HighTreeDevelopment.My-EHR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55BFCAAC204471CB00A9C0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D3D7B5BPEZ;
+				INFOPLIST_FILE = "My EHRTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HighTreeDevelopment.My-EHRTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My EHR.app/My EHR";
+			};
+			name = Debug;
+		};
+		55BFCAAD204471CB00A9C0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D3D7B5BPEZ;
+				INFOPLIST_FILE = "My EHRTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HighTreeDevelopment.My-EHRTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My EHR.app/My EHR";
+			};
+			name = Release;
+		};
+		55BFCAAF204471CB00A9C0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D3D7B5BPEZ;
+				INFOPLIST_FILE = "My EHRUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HighTreeDevelopment.My-EHRUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "My EHR";
+			};
+			name = Debug;
+		};
+		55BFCAB0204471CB00A9C0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D3D7B5BPEZ;
+				INFOPLIST_FILE = "My EHRUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HighTreeDevelopment.My-EHRUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "My EHR";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55BFCA78204471CB00A9C0B0 /* Build configuration list for PBXProject "My EHR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55BFCAA6204471CB00A9C0B0 /* Debug */,
+				55BFCAA7204471CB00A9C0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55BFCAA8204471CB00A9C0B0 /* Build configuration list for PBXNativeTarget "My EHR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55BFCAA9204471CB00A9C0B0 /* Debug */,
+				55BFCAAA204471CB00A9C0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55BFCAAB204471CB00A9C0B0 /* Build configuration list for PBXNativeTarget "My EHRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55BFCAAC204471CB00A9C0B0 /* Debug */,
+				55BFCAAD204471CB00A9C0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55BFCAAE204471CB00A9C0B0 /* Build configuration list for PBXNativeTarget "My EHRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55BFCAAF204471CB00A9C0B0 /* Debug */,
+				55BFCAB0204471CB00A9C0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		55BFCA87204471CB00A9C0B0 /* My_EHR.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				55BFCA88204471CB00A9C0B0 /* My_EHR.xcdatamodel */,
+			);
+			currentVersion = 55BFCA88204471CB00A9C0B0 /* My_EHR.xcdatamodel */;
+			path = My_EHR.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 55BFCA75204471CB00A9C0B0 /* Project object */;
+}

@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FF5037466D82A413A46F8BF /* Pods_My_EHR_My_EHRTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE25E7F61C454F94A098FEE /* Pods_My_EHR_My_EHRTests.framework */; };
+		5534257E2044800C002FACCC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5534257D2044800B002FACCC /* GoogleService-Info.plist */; };
+		5534258220448122002FACCC /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5534258120448122002FACCC /* Login.storyboard */; };
+		5534258420448144002FACCC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5534258320448144002FACCC /* LoginViewController.swift */; };
+		5534258620448335002FACCC /* Signup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5534258520448335002FACCC /* Signup.storyboard */; };
+		5534258920448E2F002FACCC /* UIApplication++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5534258820448E2F002FACCC /* UIApplication++.swift */; };
+		5534258C20448EAA002FACCC /* UIViewController++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5534258B20448EAA002FACCC /* UIViewController++.swift */; };
+		5534258F20449476002FACCC /* CustomActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5534258E20449476002FACCC /* CustomActivityIndicator.swift */; };
+		5534259120449665002FACCC /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5534259020449665002FACCC /* SignupViewController.swift */; };
 		55BFCA81204471CB00A9C0B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BFCA80204471CB00A9C0B0 /* AppDelegate.swift */; };
-		55BFCA83204471CB00A9C0B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BFCA82204471CB00A9C0B0 /* ViewController.swift */; };
-		55BFCA86204471CB00A9C0B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BFCA84204471CB00A9C0B0 /* Main.storyboard */; };
 		55BFCA89204471CB00A9C0B0 /* My_EHR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55BFCA87204471CB00A9C0B0 /* My_EHR.xcdatamodeld */; };
 		55BFCA8B204471CB00A9C0B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55BFCA8A204471CB00A9C0B0 /* Assets.xcassets */; };
 		55BFCA8E204471CB00A9C0B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BFCA8C204471CB00A9C0B0 /* LaunchScreen.storyboard */; };
 		55BFCA99204471CB00A9C0B0 /* My_EHRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BFCA98204471CB00A9C0B0 /* My_EHRTests.swift */; };
 		55BFCAA4204471CB00A9C0B0 /* My_EHRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BFCAA3204471CB00A9C0B0 /* My_EHRUITests.swift */; };
+		894F10F5E0C2BF69C7BAAFB3 /* Pods_My_EHR_My_EHRUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B621CFFB253B9ED4BB1034D0 /* Pods_My_EHR_My_EHRUITests.framework */; };
+		DE00B2D5EDEF7723A63647BA /* Pods_My_EHR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA36B8446FE666E21E26A6DE /* Pods_My_EHR.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +44,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0ADAB3B7D05BA5911A912DAF /* Pods-My EHR-My EHRUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My EHR-My EHRUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My EHR-My EHRUITests/Pods-My EHR-My EHRUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0B9E49E09BBCF40060E0CEF6 /* Pods-My EHR-My EHRTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My EHR-My EHRTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My EHR-My EHRTests/Pods-My EHR-My EHRTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0FE25E7F61C454F94A098FEE /* Pods_My_EHR_My_EHRTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_EHR_My_EHRTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48FD4EFBB219D18BC83D311E /* Pods-My EHR-My EHRUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My EHR-My EHRUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-My EHR-My EHRUITests/Pods-My EHR-My EHRUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5534257D2044800B002FACCC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5534258120448122002FACCC /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		5534258320448144002FACCC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5534258520448335002FACCC /* Signup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Signup.storyboard; sourceTree = "<group>"; };
+		5534258820448E2F002FACCC /* UIApplication++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication++.swift"; sourceTree = "<group>"; };
+		5534258B20448EAA002FACCC /* UIViewController++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController++.swift"; sourceTree = "<group>"; };
+		5534258E20449476002FACCC /* CustomActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomActivityIndicator.swift; sourceTree = "<group>"; };
+		5534259020449665002FACCC /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		55BFCA7D204471CB00A9C0B0 /* My EHR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My EHR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BFCA80204471CB00A9C0B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		55BFCA82204471CB00A9C0B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		55BFCA85204471CB00A9C0B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55BFCA88204471CB00A9C0B0 /* My_EHR.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = My_EHR.xcdatamodel; sourceTree = "<group>"; };
 		55BFCA8A204471CB00A9C0B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55BFCA8D204471CB00A9C0B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +68,11 @@
 		55BFCA9F204471CB00A9C0B0 /* My EHRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My EHRUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BFCAA3204471CB00A9C0B0 /* My_EHRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_EHRUITests.swift; sourceTree = "<group>"; };
 		55BFCAA5204471CB00A9C0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9809E5E630EFDD33AB2BCFE8 /* Pods-My EHR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My EHR.release.xcconfig"; path = "Pods/Target Support Files/Pods-My EHR/Pods-My EHR.release.xcconfig"; sourceTree = "<group>"; };
+		B621CFFB253B9ED4BB1034D0 /* Pods_My_EHR_My_EHRUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_EHR_My_EHRUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9AB5E87B17244418E34F02 /* Pods-My EHR-My EHRTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My EHR-My EHRTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-My EHR-My EHRTests/Pods-My EHR-My EHRTests.release.xcconfig"; sourceTree = "<group>"; };
+		E7268EE9503347237328617A /* Pods-My EHR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My EHR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My EHR/Pods-My EHR.debug.xcconfig"; sourceTree = "<group>"; };
+		FA36B8446FE666E21E26A6DE /* Pods_My_EHR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_EHR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE00B2D5EDEF7723A63647BA /* Pods_My_EHR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FF5037466D82A413A46F8BF /* Pods_My_EHR_My_EHRTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +96,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				894F10F5E0C2BF69C7BAAFB3 /* Pods_My_EHR_My_EHRUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5220932586872F9C1A91DC15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7268EE9503347237328617A /* Pods-My EHR.debug.xcconfig */,
+				9809E5E630EFDD33AB2BCFE8 /* Pods-My EHR.release.xcconfig */,
+				0B9E49E09BBCF40060E0CEF6 /* Pods-My EHR-My EHRTests.debug.xcconfig */,
+				BE9AB5E87B17244418E34F02 /* Pods-My EHR-My EHRTests.release.xcconfig */,
+				0ADAB3B7D05BA5911A912DAF /* Pods-My EHR-My EHRUITests.debug.xcconfig */,
+				48FD4EFBB219D18BC83D311E /* Pods-My EHR-My EHRUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		53BAFE6FF3D76CA0380C4E18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA36B8446FE666E21E26A6DE /* Pods_My_EHR.framework */,
+				0FE25E7F61C454F94A098FEE /* Pods_My_EHR_My_EHRTests.framework */,
+				B621CFFB253B9ED4BB1034D0 /* Pods_My_EHR_My_EHRUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5534257F20448103002FACCC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5534258320448144002FACCC /* LoginViewController.swift */,
+				5534259020449665002FACCC /* SignupViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		553425802044810F002FACCC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5534258120448122002FACCC /* Login.storyboard */,
+				5534258520448335002FACCC /* Signup.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5534258720448E13002FACCC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5534258820448E2F002FACCC /* UIApplication++.swift */,
+				5534258B20448EAA002FACCC /* UIViewController++.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5534258D20449453002FACCC /* Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				5534258E20449476002FACCC /* CustomActivityIndicator.swift */,
+			);
+			path = Wrappers;
+			sourceTree = "<group>";
+		};
 		55BFCA74204471CB00A9C0B0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +168,8 @@
 				55BFCA97204471CB00A9C0B0 /* My EHRTests */,
 				55BFCAA2204471CB00A9C0B0 /* My EHRUITests */,
 				55BFCA7E204471CB00A9C0B0 /* Products */,
+				5220932586872F9C1A91DC15 /* Pods */,
+				53BAFE6FF3D76CA0380C4E18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +186,15 @@
 		55BFCA7F204471CB00A9C0B0 /* My EHR */ = {
 			isa = PBXGroup;
 			children = (
+				5534258D20449453002FACCC /* Wrappers */,
+				5534258720448E13002FACCC /* Extensions */,
+				5534257F20448103002FACCC /* ViewControllers */,
+				553425802044810F002FACCC /* Storyboards */,
 				55BFCA80204471CB00A9C0B0 /* AppDelegate.swift */,
-				55BFCA82204471CB00A9C0B0 /* ViewController.swift */,
-				55BFCA84204471CB00A9C0B0 /* Main.storyboard */,
 				55BFCA8A204471CB00A9C0B0 /* Assets.xcassets */,
 				55BFCA8C204471CB00A9C0B0 /* LaunchScreen.storyboard */,
 				55BFCA8F204471CB00A9C0B0 /* Info.plist */,
+				5534257D2044800B002FACCC /* GoogleService-Info.plist */,
 				55BFCA87204471CB00A9C0B0 /* My_EHR.xcdatamodeld */,
 			);
 			path = "My EHR";
@@ -135,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55BFCAA8204471CB00A9C0B0 /* Build configuration list for PBXNativeTarget "My EHR" */;
 			buildPhases = (
+				FEF5D945A912226ACFEF6034 /* [CP] Check Pods Manifest.lock */,
 				55BFCA79204471CB00A9C0B0 /* Sources */,
 				55BFCA7A204471CB00A9C0B0 /* Frameworks */,
 				55BFCA7B204471CB00A9C0B0 /* Resources */,
+				B0B6571A209BD7898E5F12B9 /* [CP] Embed Pods Frameworks */,
+				E656F8E2EE9B62C6B87FE2C0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55BFCAAB204471CB00A9C0B0 /* Build configuration list for PBXNativeTarget "My EHRTests" */;
 			buildPhases = (
+				B4B6E00B776C8BCFDBC98985 /* [CP] Check Pods Manifest.lock */,
 				55BFCA90204471CB00A9C0B0 /* Sources */,
 				55BFCA91204471CB00A9C0B0 /* Frameworks */,
 				55BFCA92204471CB00A9C0B0 /* Resources */,
+				836CC9AE00911A2167EB56AF /* [CP] Embed Pods Frameworks */,
+				1AC2B24FD379B2CF6CB1E938 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55BFCAAE204471CB00A9C0B0 /* Build configuration list for PBXNativeTarget "My EHRUITests" */;
 			buildPhases = (
+				443C9FB8F5DAFF08863D29BB /* [CP] Check Pods Manifest.lock */,
 				55BFCA9B204471CB00A9C0B0 /* Sources */,
 				55BFCA9C204471CB00A9C0B0 /* Frameworks */,
 				55BFCA9D204471CB00A9C0B0 /* Resources */,
+				8DE17A7DDA52023CE7DAEA58 /* [CP] Embed Pods Frameworks */,
+				720FA8767F7FE38151874C3B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +334,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5534258220448122002FACCC /* Login.storyboard in Resources */,
 				55BFCA8E204471CB00A9C0B0 /* LaunchScreen.storyboard in Resources */,
+				5534257E2044800C002FACCC /* GoogleService-Info.plist in Resources */,
+				5534258620448335002FACCC /* Signup.storyboard in Resources */,
 				55BFCA8B204471CB00A9C0B0 /* Assets.xcassets in Resources */,
-				55BFCA86204471CB00A9C0B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +358,210 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1AC2B24FD379B2CF6CB1E938 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My EHR-My EHRTests/Pods-My EHR-My EHRTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		443C9FB8F5DAFF08863D29BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-My EHR-My EHRUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		720FA8767F7FE38151874C3B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My EHR-My EHRUITests/Pods-My EHR-My EHRUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		836CC9AE00911A2167EB56AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-My EHR-My EHRTests/Pods-My EHR-My EHRTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My EHR-My EHRTests/Pods-My EHR-My EHRTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DE17A7DDA52023CE7DAEA58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-My EHR-My EHRUITests/Pods-My EHR-My EHRUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My EHR-My EHRUITests/Pods-My EHR-My EHRUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0B6571A209BD7898E5F12B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-My EHR/Pods-My EHR-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My EHR/Pods-My EHR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4B6E00B776C8BCFDBC98985 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-My EHR-My EHRTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E656F8E2EE9B62C6B87FE2C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My EHR/Pods-My EHR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEF5D945A912226ACFEF6034 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-My EHR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		55BFCA79204471CB00A9C0B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5534258920448E2F002FACCC /* UIApplication++.swift in Sources */,
+				5534259120449665002FACCC /* SignupViewController.swift in Sources */,
+				5534258420448144002FACCC /* LoginViewController.swift in Sources */,
 				55BFCA89204471CB00A9C0B0 /* My_EHR.xcdatamodeld in Sources */,
-				55BFCA83204471CB00A9C0B0 /* ViewController.swift in Sources */,
+				5534258C20448EAA002FACCC /* UIViewController++.swift in Sources */,
 				55BFCA81204471CB00A9C0B0 /* AppDelegate.swift in Sources */,
+				5534258F20449476002FACCC /* CustomActivityIndicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +597,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		55BFCA84204471CB00A9C0B0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				55BFCA85204471CB00A9C0B0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		55BFCA8C204471CB00A9C0B0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,6 +717,7 @@
 		};
 		55BFCAA9204471CB00A9C0B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7268EE9503347237328617A /* Pods-My EHR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +733,7 @@
 		};
 		55BFCAAA204471CB00A9C0B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9809E5E630EFDD33AB2BCFE8 /* Pods-My EHR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +749,7 @@
 		};
 		55BFCAAC204471CB00A9C0B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B9E49E09BBCF40060E0CEF6 /* Pods-My EHR-My EHRTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +767,7 @@
 		};
 		55BFCAAD204471CB00A9C0B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE9AB5E87B17244418E34F02 /* Pods-My EHR-My EHRTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +785,7 @@
 		};
 		55BFCAAF204471CB00A9C0B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ADAB3B7D05BA5911A912DAF /* Pods-My EHR-My EHRUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +802,7 @@
 		};
 		55BFCAB0204471CB00A9C0B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48FD4EFBB219D18BC83D311E /* Pods-My EHR-My EHRUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

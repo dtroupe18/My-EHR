@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="T9r-LZ-XCH">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main Screen View Controller-->
+        <scene sceneID="Ojp-yN-TMR">
+            <objects>
+                <viewController storyboardIdentifier="MainScreenViewController" id="L2q-ye-kvd" customClass="MainScreenViewController" customModule="My_EHR" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DFH-EU-nfg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hi Human," lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4A-dR-Wo7">
+                                <rect key="frame" x="8" y="84" width="359" height="23"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to My EHR. What would you like to do?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vNx-lf-5Qv">
+                                <rect key="frame" x="8" y="227" width="359" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cQb-HF-Tkf">
+                                <rect key="frame" x="47" y="268" width="281" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <pickerView hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tU5-Ta-V1Q">
+                                <rect key="frame" x="47" y="298" width="281" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="gkF-QD-hMe"/>
+                                </constraints>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.28235294117647058" green="0.66274509803921566" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="C4A-dR-Wo7" firstAttribute="leading" secondItem="2i9-ZQ-cgg" secondAttribute="leading" constant="8" id="Md9-JM-i8j"/>
+                            <constraint firstItem="tU5-Ta-V1Q" firstAttribute="centerX" secondItem="DFH-EU-nfg" secondAttribute="centerX" id="NH3-ac-t0D"/>
+                            <constraint firstItem="cQb-HF-Tkf" firstAttribute="width" secondItem="DFH-EU-nfg" secondAttribute="width" multiplier="0.75" id="QWb-ti-gnl"/>
+                            <constraint firstItem="tU5-Ta-V1Q" firstAttribute="top" secondItem="cQb-HF-Tkf" secondAttribute="bottom" id="Tym-gb-FPe"/>
+                            <constraint firstItem="vNx-lf-5Qv" firstAttribute="top" secondItem="C4A-dR-Wo7" secondAttribute="bottom" constant="120" id="Usn-pw-Ok6"/>
+                            <constraint firstItem="cQb-HF-Tkf" firstAttribute="top" secondItem="vNx-lf-5Qv" secondAttribute="bottom" constant="20" id="VrJ-Fy-S4g"/>
+                            <constraint firstItem="tU5-Ta-V1Q" firstAttribute="width" secondItem="cQb-HF-Tkf" secondAttribute="width" id="a4Z-VJ-bAc"/>
+                            <constraint firstItem="C4A-dR-Wo7" firstAttribute="top" secondItem="2i9-ZQ-cgg" secondAttribute="top" constant="20" id="eve-D9-jAc"/>
+                            <constraint firstItem="2i9-ZQ-cgg" firstAttribute="trailing" secondItem="C4A-dR-Wo7" secondAttribute="trailing" constant="8" id="gv9-lF-hrT"/>
+                            <constraint firstItem="vNx-lf-5Qv" firstAttribute="leading" secondItem="2i9-ZQ-cgg" secondAttribute="leading" constant="8" id="omO-v4-z2a"/>
+                            <constraint firstItem="cQb-HF-Tkf" firstAttribute="centerX" secondItem="DFH-EU-nfg" secondAttribute="centerX" id="r4u-ZU-nIg"/>
+                            <constraint firstItem="2i9-ZQ-cgg" firstAttribute="trailing" secondItem="vNx-lf-5Qv" secondAttribute="trailing" constant="8" id="t21-NZ-FW8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2i9-ZQ-cgg"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="klS-Eq-QjF"/>
+                    <connections>
+                        <outlet property="dropDown" destination="tU5-Ta-V1Q" id="fbf-v9-0gj"/>
+                        <outlet property="greetingLabel" destination="C4A-dR-Wo7" id="bNG-Yw-ZcN"/>
+                        <outlet property="textField" destination="cQb-HF-Tkf" id="d30-T3-ear"/>
+                        <outlet property="welcomeLabel" destination="vNx-lf-5Qv" id="bhC-4j-e4C"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9cm-Gb-OrP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="216.80000000000001" y="78.710644677661179"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hMi-3G-Zxs">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="T9r-LZ-XCH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="uK6-gD-VUb">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="L2q-ye-kvd" kind="relationship" relationship="rootViewController" id="iIN-Sr-Ete"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h34-bF-ecd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-582" y="79"/>
+        </scene>
+    </scenes>
+</document>

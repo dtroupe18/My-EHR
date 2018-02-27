@@ -30,12 +30,12 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         
         loginButton.layer.cornerRadius = 8
-        loginButton.layer.borderWidth = 1
-        loginButton.layer.borderColor = UIColor.white.cgColor
-        
+//        loginButton.layer.borderWidth = 1
+//        loginButton.layer.borderColor = UIColor.white.cgColor
+//        
         signupButton.layer.cornerRadius = 8
-        signupButton.layer.borderWidth = 1
-        signupButton.layer.borderColor = UIColor.white.cgColor
+//        signupButton.layer.borderWidth = 1
+//        signupButton.layer.borderColor = UIColor.white.cgColor
         
         passwordTextField.delegate = self
         hideKeyboardWhenTappedAround()
@@ -44,9 +44,23 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     @IBAction func loginPressed(_ sender: Any) {
         login()
     }
+    @IBAction func skipLoginPressed(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "NewRecord", bundle: nil)
+        if let vc = storyboard.instantiateViewController(withIdentifier: "NewRecordViewController") as? NewRecordViewController {
+            // SetViewControllers so there isn't a back button
+            //
+            self.navigationController?.setViewControllers([vc], animated: true)
+        }
+    }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        textField.resignFirstResponder()
+        if textField == emailTextField {
+            // Move the user to the password textField
+            //
+            passwordTextField.becomeFirstResponder()
+        } else if textField == passwordTextField {
+            login()
+        }
         return true
     }
     
@@ -63,9 +77,15 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
                 CustomActivityIndicator.shared.hideActivityIndicator(uiView: self.view)
                 self.showAlert(title: "Login Error", message: error.localizedDescription)
             } else if let user = user {
+                print("user: \(user)")
                 // Segue to a new storyboard
                 //
-                print("user: \(user)")
+                let storyboard = UIStoryboard(name: "MainScreen", bundle: nil)
+                if let vc = storyboard.instantiateViewController(withIdentifier: "MainScreenViewController") as? MainScreenViewController {
+                    // SetViewControllers so there isn't a back button
+                    //
+                    self.navigationController?.setViewControllers([vc], animated: true)
+                }
             }
         })
     }

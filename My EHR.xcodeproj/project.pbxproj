@@ -16,6 +16,11 @@
 		5534258C20448EAA002FACCC /* UIViewController++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5534258B20448EAA002FACCC /* UIViewController++.swift */; };
 		5534258F20449476002FACCC /* CustomActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5534258E20449476002FACCC /* CustomActivityIndicator.swift */; };
 		5534259120449665002FACCC /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5534259020449665002FACCC /* SignupViewController.swift */; };
+		553425952045BC9C002FACCC /* MainScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553425942045BC9C002FACCC /* MainScreen.storyboard */; };
+		553425972045BCC4002FACCC /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553425962045BCC4002FACCC /* MainScreenViewController.swift */; };
+		5592DE7A20460ADA00EB1426 /* NewRecord.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5592DE7920460ADA00EB1426 /* NewRecord.storyboard */; };
+		5592DE7C20460B1700EB1426 /* NewRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5592DE7B20460B1700EB1426 /* NewRecordViewController.swift */; };
+		5592DE8120461F2300EB1426 /* HealthRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5592DE8020461F2300EB1426 /* HealthRecord.swift */; };
 		55BFCA81204471CB00A9C0B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BFCA80204471CB00A9C0B0 /* AppDelegate.swift */; };
 		55BFCA89204471CB00A9C0B0 /* My_EHR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55BFCA87204471CB00A9C0B0 /* My_EHR.xcdatamodeld */; };
 		55BFCA8B204471CB00A9C0B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55BFCA8A204471CB00A9C0B0 /* Assets.xcassets */; };
@@ -56,6 +61,11 @@
 		5534258B20448EAA002FACCC /* UIViewController++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController++.swift"; sourceTree = "<group>"; };
 		5534258E20449476002FACCC /* CustomActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomActivityIndicator.swift; sourceTree = "<group>"; };
 		5534259020449665002FACCC /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		553425942045BC9C002FACCC /* MainScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainScreen.storyboard; sourceTree = "<group>"; };
+		553425962045BCC4002FACCC /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		5592DE7920460ADA00EB1426 /* NewRecord.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewRecord.storyboard; sourceTree = "<group>"; };
+		5592DE7B20460B1700EB1426 /* NewRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecordViewController.swift; sourceTree = "<group>"; };
+		5592DE8020461F2300EB1426 /* HealthRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthRecord.swift; sourceTree = "<group>"; };
 		55BFCA7D204471CB00A9C0B0 /* My EHR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My EHR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BFCA80204471CB00A9C0B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55BFCA88204471CB00A9C0B0 /* My_EHR.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = My_EHR.xcdatamodel; sourceTree = "<group>"; };
@@ -131,6 +141,8 @@
 			children = (
 				5534258320448144002FACCC /* LoginViewController.swift */,
 				5534259020449665002FACCC /* SignupViewController.swift */,
+				553425962045BCC4002FACCC /* MainScreenViewController.swift */,
+				5592DE7B20460B1700EB1426 /* NewRecordViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -140,6 +152,8 @@
 			children = (
 				5534258120448122002FACCC /* Login.storyboard */,
 				5534258520448335002FACCC /* Signup.storyboard */,
+				553425942045BC9C002FACCC /* MainScreen.storyboard */,
+				5592DE7920460ADA00EB1426 /* NewRecord.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -159,6 +173,14 @@
 				5534258E20449476002FACCC /* CustomActivityIndicator.swift */,
 			);
 			path = Wrappers;
+			sourceTree = "<group>";
+		};
+		5592DE7F20461F0C00EB1426 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				5592DE8020461F2300EB1426 /* HealthRecord.swift */,
+			);
+			path = Structs;
 			sourceTree = "<group>";
 		};
 		55BFCA74204471CB00A9C0B0 = {
@@ -186,6 +208,7 @@
 		55BFCA7F204471CB00A9C0B0 /* My EHR */ = {
 			isa = PBXGroup;
 			children = (
+				5592DE7F20461F0C00EB1426 /* Structs */,
 				5534258D20449453002FACCC /* Wrappers */,
 				5534258720448E13002FACCC /* Extensions */,
 				5534257F20448103002FACCC /* ViewControllers */,
@@ -337,8 +360,10 @@
 				5534258220448122002FACCC /* Login.storyboard in Resources */,
 				55BFCA8E204471CB00A9C0B0 /* LaunchScreen.storyboard in Resources */,
 				5534257E2044800C002FACCC /* GoogleService-Info.plist in Resources */,
+				5592DE7A20460ADA00EB1426 /* NewRecord.storyboard in Resources */,
 				5534258620448335002FACCC /* Signup.storyboard in Resources */,
 				55BFCA8B204471CB00A9C0B0 /* Assets.xcassets in Resources */,
+				553425952045BC9C002FACCC /* MainScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +442,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftForms/SwiftForms.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
@@ -427,7 +452,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftForms.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -447,7 +472,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftForms/SwiftForms.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
@@ -457,7 +482,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftForms.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -477,7 +502,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftForms/SwiftForms.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
@@ -487,7 +512,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftForms.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -558,8 +583,11 @@
 				5534258920448E2F002FACCC /* UIApplication++.swift in Sources */,
 				5534259120449665002FACCC /* SignupViewController.swift in Sources */,
 				5534258420448144002FACCC /* LoginViewController.swift in Sources */,
+				5592DE7C20460B1700EB1426 /* NewRecordViewController.swift in Sources */,
+				5592DE8120461F2300EB1426 /* HealthRecord.swift in Sources */,
 				55BFCA89204471CB00A9C0B0 /* My_EHR.xcdatamodeld in Sources */,
 				5534258C20448EAA002FACCC /* UIViewController++.swift in Sources */,
+				553425972045BCC4002FACCC /* MainScreenViewController.swift in Sources */,
 				55BFCA81204471CB00A9C0B0 /* AppDelegate.swift in Sources */,
 				5534258F20449476002FACCC /* CustomActivityIndicator.swift in Sources */,
 			);
